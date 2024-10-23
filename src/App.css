@@ -1,0 +1,512 @@
+@media (prefers-reduced-motion:no-preference){
+  *{
+      scroll-behavior: smooth;
+  }
+}
+body{
+  height: 40vh;
+}
+
+.for-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+ z-index: 999;
+ background-color: #ffffff;
+ top: 0;
+ left: 0;
+ 
+}
+
+
+
+.for-nav{
+    width: 40%;
+    margin-right: 10%;
+    
+}
+
+.for-ul, .for-li, .for-a{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+}
+
+.an{
+  font-weight: 700;
+  font-size: 1rem;
+  margin-left: 10%
+}
+
+.bag{
+ margin-right: 10%;
+}
+.dropdown{
+ margin-left: 4px;
+ margin-top: 2px;
+}
+
+.couture{
+  margin-left: 20px;
+}
+ 
+.hamburger{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  right: -60px;
+}
+
+.hamburger-menu{
+  width: 30px;
+  height: 3px;
+  background-color: rgb(10, 10, 10);
+  border-radius: 2px;
+  margin-top: 5px;
+  
+}
+
+.for-sidebar{
+  width: 6%;
+  height: 1949px;
+  background-color: #DF8E94;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 999;
+  
+}
+
+.for-lii{
+  margin-top: 50px;
+  margin-left: -5px;
+ transform: rotate(90deg);
+ gap: 200px;
+ font-size: 1rem;
+ display: flex;
+}
+
+
+
+.cout{
+margin-left: 5px;
+}
+
+.in-bar{
+position: absolute;
+width: 204px;
+height: 204px;
+left: 449px;
+top: 352px;
+background: #DF8E94;
+filter: blur(172px);
+
+}
+
+
+
+
+.bespoke{
+  position: absolute;
+  width: 314px;
+  height: 224px;
+  left: 135px;
+  top: 193px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 56px;
+ 
+
+  
+}
+.women{
+  color: #DF8E94;
+}
+
+.buton{
+position: absolute;
+width: 245px;
+height: 66px;
+left: 135px;
+top: 467px;
+color: #DF8E94;
+border: 1px solid #DF8E94;
+border-radius: 34px;
+background: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+cursor: pointer;
+}
+
+ .buton:hover{
+ background-color:  #f8e4e5;
+  
+ }
+
+ .first-img{
+  position: absolute;
+  left: 561px;
+  
+  top: 193px;
+  
+ 
+ }
+
+ .f-di{
+ /* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 127px;
+height: 688px;
+left: 881px;
+top: 148px;
+z-index: -1;
+border: 30px solid #DF8E94;
+
+ }
+
+
+ .s-di{
+z-index:-1;
+position: absolute;
+width: 103px;
+height: 664px;
+left: 893px;
+top: 160px;
+border: 2px dashed #000000;
+
+ }
+
+ .section-2{
+ position: absolute;
+width: 100%;
+height: 894px;
+left: 0;
+top: 906px;
+z-index:-1 ;
+ }
+ 
+ .style-di{
+position: absolute;
+width: 578px;
+height: 438px;
+left: 135px;
+top: 1146px;
+background: #DF8E9433;
+border-radius: 156px 388.5px 67px 45px;
+z-index: 1;
+ }
+
+
+ .sharon{
+position: absolute;
+width: 571px;
+height: 678px;
+left: 120px;
+top: 906px;
+z-index: 1;
+
+ }
+
+ .tail{
+  /* Tailored to perfection just for you */
+position: absolute;
+width: 487px;
+height: 112px;
+left: 746px;
+top: 1076px;
+font-style: normal;
+font-weight: 800;
+font-size: 46px;
+line-height: 56px;
+color: #000000;
+}
+
+ .tail-2{
+  /* Anncranberry is a Female clothing brand specializing in the creation of bespoke luxury bridal and top-notch couture dresses. Our Fashion Academy is dedicated to educating and empowering individuals to be fashion business owners. */
+
+position: absolute;
+width: 588px;
+height: 69px;
+left: 746px;
+top: 1223px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #000000;
+ }
+
+ .buton-2{
+ position: absolute;
+ width: 245px;
+ height: 66px;
+ left: 746px;
+ top: 1339px;
+ color: #DF8E94;
+ border: 1px solid #DF8E94;
+ border-radius: 34px;
+ background: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 25px;
+ cursor: pointer;
+    
+ }
+
+ .buton-2:hover{
+  background-color: #f8e4e5;
+ }
+
+ .img-container{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 1700px  auto;
+
+}
+
+ .each-img{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
+  height: auto;
+ 
+  
+ }
+ .for-c-s{
+ width: auto;
+ height: auto; 
+ cursor: pointer;
+ }
+ .imgg{
+  width: 100%;
+  height: 100%;
+ }
+ .for-text{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  gap: 10%;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  font-weight: 600;
+  font-size: 90%;
+ }
+ @media(max-width:1343px){
+  .img-container{
+    margin-top: 1950px;
+    width: 90%;
+  }
+  .each-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .section-2{
+    height: 970px;
+    
+  }
+ .tail{
+  top: 1550px;
+  left: 160px;
+ }
+.tail-2{
+  top: 1700px;
+  left: 160px;
+}
+.buton-2{
+top:1800px;
+left: 160px;
+}
+ }
+@media(max-width:991px){
+  .bespoke{
+    left: 95px;
+  }
+   .buton{
+    left: 100px;
+   }
+  .first-img{
+    left: 400px;
+   
+  }
+  .f-di{
+    left: 720px;
+   
+  }
+  .s-di{
+    left: 730px;
+    
+  }
+  
+}
+
+@media(max-width:841px){
+  .for-ul{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left:-100%;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    height: 30vh;
+    background-color: #111111;
+    transition:  0.3s ease-in-out;
+    gap: 30px
+  }
+  
+  .for-ul.active{
+    left:0;
+    
+    
+  }
+
+  .for-a{
+    color: #fff;
+  }
+  .hamburger{
+    display: block;
+    right: 0;
+    
+  }
+  
+  .an{
+    margin-left: 0;
+  }
+  
+  .bag{
+    margin-right: 20%;
+  }
+  
+  .for-sidebar{
+    display: none;
+  }
+  .bespoke{
+     top: 150px;
+     font-weight:100;
+     
+     width:90%;
+     height:auto;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     font-size: 36px;
+     font-weight: 600;
+   }
+  .buton{
+    width: 29%;
+    height: 40px;
+    left: 25px;
+    top: 315px;
+    gap: 15px;
+    font-size: 10px;
+    }
+  
+    .in-bar{
+    left: 20px;
+    }
+    .arrow{
+      display: none;
+    }
+  .first-img{
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 70% ;
+    height: 50%;
+    z-index: 2;
+   top: 460px;
+    object-fit: contain;
+  }
+  .f-di{
+    width:30%;
+    height:65%;
+    left: 60%;
+    top: 370px;
+    border: 15px solid #DF8E94;
+    z-index:  1
+  }
+  .s-di{
+    display: none;
+    left: 0
+  }
+  
+  }
+
+  @media(max-width:785px){
+    .sharon {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 70%;
+      object-fit: contain;
+      
+    }
+    .style-di{
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 85%;
+     height: 380px;
+    
+    }
+    .tail{
+      margin: 0 auto;
+      right: 0;
+      left: 0;
+      font-size: 40px;
+      width:95%;
+      height: auto;
+      text-align: center;
+    }
+    .tail-2{
+      text-align: center;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 95%;
+      height: auto;
+    }
+    .buton-2{
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 40%;
+    }
+  }
+
+  @media(max-width:637px){
+    .tail{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+  }
+
+  @media(max-width:428px){
+    .buton-2{
+      top: 1850px;
+    }
+  }
